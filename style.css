@@ -1,0 +1,49 @@
+
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Intestazione */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Struttura principale */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Contenuto principale */
+article {
+    flex: 3;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+/* Barra laterale */
+aside {
+    flex: 1;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+/* Piè di pagina */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}
